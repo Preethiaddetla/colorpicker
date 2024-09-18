@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color_picker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <div id="main_container">
+        <h1 class="heading">Create Your Text  </h1>
+
+    <div id=container>
+        <center>
+         <h2 contenteditable="true" id="text"></h2>
+        </center>
+    </div>
+    
+    <div id="download">
+        <button id="btn">Download</button>
+    </div>
+
+<div id="bg_txt_containers">
+  
+    <div id="background_container">
+        <h1 class="text">Background Color</h1>
+        <div id="bg_colors">
+        <button onclick="myred()" id="red_button"></button>
+        <button onclick="myred1()" id="red1_button"></button>
+        <button onclick="mypink()" id="pink_button"></button>
+        <button onclick="mypink1()" id="pink1_button"></button>
+        <button onclick="mypink2()" id="pink2_button"></button>
+        <button onclick="myviolet()" id="violet_button"></button>
+        <button onclick="myviolet1()" id="violet1_button"></button>
+        <button onclick="myblue1()" id="blue1_button"></button>
+        <button onclick="myblue2()" id="blue2_button"></button>
+        <button onclick="myskyblue()" id="skyblue_button"></button>
+        <button onclick="myaqua()" id="aqua_button"></button>
+        <button onclick="myaquamarine()" id="aquamarine_button"></button>
+        <button onclick="myaquamarine1()" id="aquamarine1_button"></button>
+        <button onclick="mygreen()" id="green_button"></button>
+        <button onclick="myhazelgreen()" id="hazelgreen_button"></button>
+        <button onclick="mylightgreen()" id="lightgreen_button"></button>
+        <button onclick="myyellowgreen()" id="yellowgreen_button"></button>
+        <button onclick="myyellow()" id="yellow_button"></button>
+        <button onclick="mymustard()" id="mustard_button"></button>
+        <button onclick="myorange()" id="orange_button"></button>
+        <button onclick="myorange1()" id="orange1_button"></button>
+        <button onclick="mycottoncandy()" id="cottoncandy_button"></button>
+        <button onclick="mycarnationpink()" id="carnationpink_button"></button>
+        <button onclick="myhotpink()" id="hotpink_button"></button>
+        <button onclick="mythistle()" id="thistle_button"></button>
+        <button onclick="myseashell()" id="seashell_button"></button>
+        <button onclick="myvanilla()" id="vanilla_button"></button>
+        <button onclick="myclovergreen()" id="clovergreen_button"></button>
+        <button onclick="myteal()" id="teal_button"></button>
+        <button onclick="myblack()" id="black_button"></button>
+        <button onclick="mywhite()" id="white_button"></button>
+        <button onclick="mybrown()" id="brown_button"></button>
+        </div>
+    </div>
+
+
+    <div id="text_container">
+        <h1 class="text">Text Color</h1>
+        <div id="txt_colors">
+        <button onclick="mytextred()" id="red_button"></button>
+        <button onclick="mytextred1()" id="red1_button"></button>
+        <button onclick="mytextpink()" id="pink_button"></button>
+        <button onclick="mytextpink1()" id="pink1_button"></button>
+        <button onclick="mytextpink2()" id="pink2_button"></button>
+        <button onclick="mytextviolet()" id="violet_button"></button>
+        <button onclick="mytextviolet1()" id="violet1_button"></button>
+        <button onclick="mytextblue1()" id="blue1_button"></button>
+        <button onclick="mytextblue2()" id="blue2_button"></button>
+        <button onclick="mytextskyblue()" id="skyblue_button"></button>
+        <button onclick="mytextaqua()" id="aqua_button"></button>
+        <button onclick="mytextaquamarine()" id="aquamarine_button"></button>
+        <button onclick="mytextaquamarine1()" id="aquamarine1_button"></button>
+        <button onclick="mytextgreen()" id="green_button"></button>
+        <button onclick="mytexthazelgreen()" id="hazelgreen_button"></button>
+        <button onclick="mytextlightgreen()" id="lightgreen_button"></button>
+        <button onclick="mytextyellowgreen()" id="yellowgreen_button"></button>
+        <button onclick="mytextyellow()" id="yellow_button"></button>
+        <button onclick="myytextmustard()" id="mustard_button"></button>
+        <button onclick="mytextorange()" id="orange_button"></button>
+        <button onclick="mytextorange1()" id="orange1_button"></button>
+        <button onclick="mytextcottoncandy()" id="cottoncandy_button"></button>
+        <button onclick="mytextcarnationpink()" id="carnationpink_button"></button>
+        <button onclick="mytexthotpink()" id="hotpink_button"></button>
+        <button onclick="mytextthistle()" id="thistle_button"></button>
+        <button onclick="mytextseashell()" id="seashell_button"></button>
+        <button onclick="mytextvanilla()" id="vanilla_button"></button>
+        <button onclick="mytextclovergreen()" id="clovergreen_button"></button>
+        <button onclick="mytextteal()" id="teal_button"></button>
+        <button onclick="mytextblack()" id="black_button"></button>
+        <button onclick="mytextwhite()" id="white_button"></button>
+        <button onclick="mytextbrown()" id="brown_button"></button>
+        
+         </div>
+    </div>
+    
+    <div id="font_container">
+        <h1 class="text">Font Style</h1>
+        <button onclick="myfont1()" id="font1">Hello</button>
+        <button onclick="myfont2()" id="font2">Hello</button>
+        <button onclick="myfont3()" id="font3">Hello</button>
+        <button onclick="myfont4()" id="font4">Hello</button>
+        <button onclick="myfont5()" id="font5">Hello</button>
+        <button onclick="myfont6()" id="font6">Hello</button>
+        <button onclick="myfont7()" id="font7">Hello</button><br><br>
+        <button onclick="myfont8()" id="font8">Hello</button>
+        <button onclick="myfont9()" id="font9">Hello</button>
+        
+        <button onclick="myfont10()" id="font10">Hello</button>
+        <button onclick="myfont11()" id="font11">Hello</button>
+        <button onclick="myfont12()" id="font12">Hello</button>
+        <button onclick="myfont13()" id="font13">Hello</button>
+        <button onclick="myfont14()" id="font14">Hello</button>
+    </div>
+
+
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

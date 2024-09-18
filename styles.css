@@ -1,0 +1,675 @@
+#main_container{
+   height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    background-image: linear-gradient(115deg,#aee1ff88,#f6bed0af);
+   background-repeat: repeat;
+   background-size: contain;
+}
+#container{
+    height: 25rem;
+    width: 25rem;
+    border:  solid rgba(0, 0, 0, 0.648);
+    vertical-align: top;
+    display: inline-block;
+   grid-column-start: 1;
+   grid-column-end: 2;
+   margin-left: 8rem;
+   margin-top: 5rem;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+#container:hover {
+    border: 0.4rem solid #f778a0c3;
+}
+#heaad{
+    text-align: center;
+    margin-top: 12rem;
+    font-size: 2rem;
+}
+
+#text{
+    font-size: 2.5rem;
+    text-align: center;
+   
+    
+    margin-top: -0.3rem;
+}
+
+#background_container{
+        height: 17rem;
+        width: 22rem;
+        border: 0.1rem solid rgba(0, 0, 0, 0.484);
+        vertical-align: top;
+        display: inline-block;
+        margin-top: 2rem;
+        margin-left: 1.2rem;
+        border-radius: 1rem;
+}
+#background_container:hover {
+    border: 0.3rem solid #f778a0c3;
+}
+#bg_colors{
+    height: 10rem;
+    width: 20rem;
+    background: none;
+    border-radius: 0.5rem;
+   margin-left: 1.2rem;
+
+}
+#text_container{
+    height: 17rem;
+        width: 22rem;
+        border: 0.1rem solid rgba(0, 0, 0, 0.484);
+        vertical-align: top;
+        display: inline-block;
+        margin-top: 2rem;
+        border-radius: 1rem;
+}
+#text_container:hover {
+    border: 0.3rem solid #f778a0c3;
+}
+#txt_colors{
+    height: 10rem;
+    width: 20rem;
+    background: none;
+    border-radius: 0.5rem;
+   margin-left: 1.2rem;
+
+}
+#red_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: red;
+}
+
+#red1_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #ff0040;
+}
+
+#pink_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #ff0080;
+}
+
+#pink1_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #ff00bf;
+}
+
+#pink2_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #ff00ff;
+}
+
+#violet_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #bf00ff;
+}
+
+#violet1_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #8000ff;
+}
+
+
+
+#blue1_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #0000ff;
+}
+
+#blue2_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #0080ff;
+}
+
+#skyblue_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: 	#00bfff;
+}
+
+#aqua_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: 	#00ffff;
+}
+
+#aquamarine_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: 	#00ffbf;
+}
+
+#aquamarine1_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: 	#00ff80;
+}
+
+#green_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: 	#00ff00;
+}
+
+#hazelgreen_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: 	#617c58;
+}
+
+#lightgreen_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: 	#80ff00;
+}
+
+#yellowgreen_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: 	#bfff00;
+}
+
+#yellow_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #ffff00;
+}
+
+#mustard_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #ffbf00;
+}
+
+#orange_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #ff8000;
+}
+#orange1_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #ff4000;
+}
+#cottoncandy_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #fcdfff;
+}
+#carnationpink_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #f778a1;
+}
+#hotpink_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #f660ab;
+}
+#thistle_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #d2b9d3 ;
+}
+#seashell_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #fff5ee ;
+}
+
+#vanilla_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #f3e5ab;
+}
+
+#clovergreen_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #3ea055;
+}
+
+#teal_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #008080 ;
+}
+
+#black_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: black ;
+}
+
+#white_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: white ;
+}
+#brown_button{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50px;
+    background-color: #560319 ;
+}
+
+
+
+#head{
+    font-size: 3rem;
+}
+#bg_txt_containers{
+    height: 38.5rem;
+    width: 47rem;
+    border:  solid rgba(0, 0, 0, 0.648);
+    display: inline-block;
+    border-radius: 1rem;
+    margin-right: 2rem;
+    margin-top: -25rem;
+    
+}
+#bg_txt_containers:hover {
+    border: 0.3rem solid #f778a0c3;
+}
+#font_container{
+    height: 15rem;
+    width: 42rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.484);
+    margin-top: 2rem;
+    margin-left: 1.2rem;
+    border-radius: 1rem;
+    padding-left: 2rem;
+}
+#font_container:hover {
+    border: 0.3rem solid #f778a0c3;
+}
+#font1{
+    height: 3rem;
+    width: 5.5rem;
+   font-size: 1.5rem;
+   border-radius: 0.5rem;
+    font-family: Times New Roman,serif;
+}
+#font2{
+    height: 3rem;
+    width: 5.5rem;
+   font-size: 1.5rem;
+   border-radius: 0.5rem;
+    font-family: "Lucida Console" , "Courier New" , monospace;
+}
+#font3{
+    height: 3rem;
+    width: 5.5rem;
+   font-size: 1.5rem;
+   border-radius: 0.5rem;
+    font-family: cursive;
+}
+#font4{
+    height: 3rem;
+    width: 5.5rem;
+   font-size: 1.5rem;
+   border-radius: 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#font5{
+    height: 3rem;
+    width: 5.5rem;
+   font-size: 1.5rem;
+   border-radius: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#font6{
+    height: 3rem;
+    width: 5.5rem;
+   font-size: 1.5rem;
+   border-radius: 0.5rem;
+    font-family: Fantasy;
+}
+#font7{
+    height: 3rem;
+    width: 5.5rem;
+   font-size: 1.5rem;
+   border-radius: 0.5rem;
+    font-family: 'Brush Script MT', cursive;
+}
+#font8{
+    height: 3rem;
+    width: 5.5rem;
+   font-size: 1.5rem;
+   border-radius: 0.5rem;
+    font-family: Garamond, serif;
+}
+#font9{
+    height: 3rem;
+    width: 5.5rem;
+   font-size: 1.5rem;
+   border-radius: 0.5rem;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+#font10{
+    height: 3rem;
+    width: 5.5rem;
+   font-size: 1.5rem;
+   border-radius: 0.5rem;
+    font-family: Perpetua, serif;
+}
+#font11{
+    height: 3rem;
+    width: 5.5rem;
+   font-size: 1.5rem;
+   border-radius: 0.5rem;
+    font-family: Didot, serif;
+}
+#font12{
+    height: 3rem;
+    width: 5.5rem;
+   font-size: 1.5rem;
+   border-radius: 0.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#font13{
+    height: 3rem;
+    width: 5.5rem;
+   font-size: 1.5rem;
+   border-radius: 0.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#font14{
+    height: 3rem;
+    width: 5.5rem;
+   font-size: 1.5rem;
+   border-radius: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text{
+    text-align: center;
+    font-style: italic;
+    text-decoration-line: underline;
+    color: rgb(42, 119, 121);
+     
+}
+.heading{
+    text-align: center;
+    font-size: 5rem;
+    grid-column-start: 1;
+    grid-column-end: 3;
+   font-family: serif;
+   text-transform: uppercase;
+   background: -webkit-linear-gradient(left,#ee5a88, #f669a999);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   
+}
+::placeholder{
+    padding-left: 1rem;
+}
+#download{
+    height: 3rem;
+    width: 12rem;
+    border: solid  rgba(0, 0, 0, 0.648);;
+    display: inline-block;
+   grid-column-start: 1;
+   grid-column-end: 1;
+   vertical-align: top;
+   margin-top: 4rem;
+   margin-left: 14rem;
+}
+
+
+#btn{
+    height: 3rem;
+    width: 12rem;
+    font-size: 2rem;
+}
+
+#download:hover {
+    border: 0.3rem solid #f778a0c3;
+}
+
+
+@media(max-width:600px){
+    #main_container{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        height: 220vh;
+        width: 200vw;
+        background-image: linear-gradient(115deg,#aee1ff88,#f6bed0af);
+    }
+    #container{
+        height: 5rem;
+        width: 30rem;
+        border:  solid rgba(0, 0, 0, 0.648);
+        vertical-align: top;
+        display: inline-block;
+       grid-column-start: 1;
+       grid-column-end: 1;
+       margin-top: 2rem;
+       border-radius: 1rem;
+       
+    }
+    #download{
+        height: 3rem;
+        width: 12rem;
+        border: solid  rgba(0, 0, 0, 0.648);;
+        display: inline-block;
+       grid-column-start: 1;
+       grid-column-end: 1;
+       vertical-align: top;
+     
+       margin-left: 17rem;
+    }
+    #text{
+        height: 5rem;
+        width: 30rem;
+        font-size: 2.5rem;
+        border-radius: 1rem;
+        border:  solid rgba(0, 0, 0, 0.648);
+    }
+    #bg_txt_containers{
+        height: 60rem;
+        width: 40rem;
+        border:  solid rgba(0, 0, 0, 0.648);
+        display: inline-block;
+        border-radius: 1rem;
+        margin-left: 3.5rem;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        margin-top: 2rem;
+        
+    }
+    #font_container{
+        height: 15rem;
+        width: 35rem;
+        border: 0.1rem solid rgba(0, 0, 0, 0.484);
+        margin-top: 2rem;
+        margin-left: 1.2rem;
+        border-radius: 1rem;
+        padding-left: 2rem;
+    }
+    #font1{
+        height: 2rem;
+        width: 4rem;
+       font-size: 1rem;
+       border-radius: 0.5rem;
+        font-family: Times New Roman,serif;
+    }
+    #font2{
+        height: 2rem;
+        width: 4rem;
+       font-size: 1rem;
+       border-radius: 0.5rem;
+        font-family: "Lucida Console" , "Courier New" , monospace;
+    }
+    #font3{
+        height: 2rem;
+        width: 4rem;
+       font-size: 1rem;
+       border-radius: 0.5rem;
+        font-family: cursive;
+    }
+    #font4{
+        height: 2rem;
+        width: 4rem;
+       font-size: 1rem;
+       border-radius: 0.5rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    #font5{
+        height: 2rem;
+        width: 4rem;
+       font-size: 1rem;
+       border-radius: 0.5rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #font6{
+        height: 2rem;
+        width: 4rem;
+       font-size: 1rem;
+       border-radius: 0.5rem;
+        font-family: Fantasy;
+    }
+    #font7{
+        height: 2rem;
+        width: 4rem;
+       font-size: 1rem;
+       border-radius: 0.5rem;
+        font-family: 'Brush Script MT', cursive;
+    }
+    #font8{
+        height: 2rem;
+        width: 4rem;
+       font-size: 1rem;
+       border-radius: 0.5rem;
+        font-family: Garamond, serif;
+    }
+    #font9{
+        height: 2rem;
+        width: 4rem;
+       font-size: 1rem;
+       border-radius: 0.5rem;
+        font-family: Copperplate, Papyrus, fantasy;
+    }
+    
+    #font10{
+        height: 2rem;
+        width: 4rem;
+       font-size: 1rem;
+       border-radius: 0.5rem;
+        font-family: Perpetua, serif;
+    }
+    #font11{
+        height: 2rem;
+        width: 4rem;
+       font-size: 1rem;
+       border-radius: 0.5rem;
+        font-family: Didot, serif;
+    }
+    #font12{
+        height: 2rem;
+        width: 4rem;
+       font-size: 1rem;
+       border-radius: 0.5rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    #font13{
+        height: 2rem;
+        width: 4rem;
+       font-size: 1rem;
+       border-radius: 0.5rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #font14{
+        height: 2rem;
+        width: 4rem;
+       font-size: 1rem;
+       border-radius: 0.5rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #background_container{
+        height: 17rem;
+        width: 22rem;
+        border: 0.1rem solid rgba(0, 0, 0, 0.484);
+        vertical-align: top;
+        display: inline-block;
+        margin-top: 2rem;
+        margin-left: 8rem;
+        border-radius: 1rem;
+    }
+    #text_container{
+        height: 17rem;
+        width: 22rem;
+        border: 0.1rem solid rgba(0, 0, 0, 0.484);
+        vertical-align: top;
+        display: inline-block;
+        margin-top: 2rem;
+        margin-left: 8rem;
+        border-radius: 1rem;
+    }
+
+    .heading{
+        text-align: center;
+        font-size: 3rem;
+        grid-column-start: 1;
+        grid-column-end: 3;
+       font-family: serif;
+       text-transform: uppercase;
+       background: -webkit-linear-gradient(left,#ee5a88, #f669a999);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       
+    }
+       
+
+
+
+
+
+}
